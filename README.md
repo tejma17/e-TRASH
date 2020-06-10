@@ -5,8 +5,10 @@
 The following tools are used.
 * Java 8 JDK or better - For Java development
 * Android Studio - For Android development
-   * On the CSE Linux machines you may need to install binaries for running 32-bit tools by typing the following
-`sudo yum install glibc.i686 zlib.i686 libstdc++.i686 ncurses-libs.i686 libgcc.i686`
+   * On the CSE Linux machines you may need to install binaries for running 32-bit tools by following command:
+   ```
+   sudo yum install glibc.i686 zlib.i686 libstdc++.i686 ncurses-libs.i686 libgcc.i686
+   ```
 * Genymotion - Not required, but it is a better, faster emulator for Android
 * VirtualBox - Genymotion's virtual machine
 
