@@ -2,11 +2,11 @@
 
 ## Development Tools ##
 
-The following tools are used, click the links to download and install if you don't already have them installed. We also recommend using Mac/Windows for the Android Studio instructions because Linux may have a lot of missing tools and may not match exactly.
-* Java 7 JDK or better - For Java development
+The following tools are used.
+* Java 8 JDK or better - For Java development
 * Android Studio - For Android development
    * On the CSE Linux machines you may need to install binaries for running 32-bit tools by typing the following
-sudo yum install glibc.i686 zlib.i686 libstdc++.i686 ncurses-libs.i686 libgcc.i686
+`sudo yum install glibc.i686 zlib.i686 libstdc++.i686 ncurses-libs.i686 libgcc.i686`
 * Genymotion - Not required, but it is a better, faster emulator for Android
 * VirtualBox - Genymotion's virtual machine
 
@@ -16,9 +16,9 @@ sudo yum install glibc.i686 zlib.i686 libstdc++.i686 ncurses-libs.i686 libgcc.i6
 1. Open Android Studio
 2. If prompted with the welcome screen, select "Import project (Eclipse ADT, Gradle, etc.)"
 3. If not, go to File -> Import Project
-4. Find the folder where the repository is and select the garbage folder for e-TRASH and garbageCleaner for Cleaner Buddy.
-5. You can be sure you imported this correctly if you can locate in the project explorer the source files.
-6. If the build fails, see the Android Studio Plugins section
+4. Find the folder where the repository is and select the folder.
+5. After successful import, you will be able to see project structure and gradle sync will began.
+6. If the build fails, check for the errors in build tab.
 
 
 ## Android Studio Plugins ##
