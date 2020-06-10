@@ -53,8 +53,8 @@ Import script-lint.gradle to your build.gradle file.
 ## Directory Structure ##
 
 * app/src/main -Folder for main source code.
-            * AndroidManifest.xml -Manifest file.
-            * java/com/example/garbage -Folder containing main java files.
+   * AndroidManifest.xml - Manifest file.
+   * java/com/example/garbage - Folder containing main java files.
 * app/release - Signed apk file for project.
 * app/build/outputs/apk/debug - Build apk file for project.
 
