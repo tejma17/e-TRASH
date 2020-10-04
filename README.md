@@ -1,5 +1,6 @@
-# e-TRASH #
+# e-T.R.A.S.H. #
 
+### Technical Register And Segregation of Household waste ###
 The project aims to simplify the garbage collection system in a city. There is a user who is house owner and a collector who is the person appointed by municipal corporation of city.
 
 ## Features ##
