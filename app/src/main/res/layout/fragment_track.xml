@@ -9,7 +9,7 @@
         android:id="@+id/map1"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="379dp"
+        android:layout_height="479dp"
         android:background="#BDBDBD"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.008"
-        tools:context=".MapsActivity">
+        tools:context=".activity.MapsActivity">
 
     </androidx.fragment.app.FragmentContainerView>
 
@@ -45,7 +45,6 @@
             android:translationZ="10dp" />
 
         <ImageView
-            android:id="@+id/circle_crop"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:elevation="12dp"
@@ -113,7 +112,6 @@
         app:layout_constraintVertical_bias="0.072" />
 
     <TextView
-        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="23dp"

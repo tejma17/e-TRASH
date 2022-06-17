@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:openDrawer="start"
-    tools:context=".drawer">
+    tools:context=".activity.DrawerActivity">
 
     <include
         layout="@layout/app_bar_drawer"
